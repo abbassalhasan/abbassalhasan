@@ -9,5 +9,5 @@ export type Product = {
   price: number;
   imageUrl: string;
   inStock: boolean;
-  variants?: Variant[]; // NOT string[]
+  variants?: Variant[];
 };
